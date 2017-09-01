@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-03-25T12:38:30Z"
+          product-name="lbo_glossary">
+        <header/>
+        <body>
+            <trans-unit id="tx_lboglossary_domain_model_term">
+                <source>Term</source>
+            </trans-unit>
+            <trans-unit id="tx_lboglossary_domain_model_term.term">
+                <source>Term</source>
+            </trans-unit>
+            <trans-unit id="tx_lboglossary_domain_model_term.description">
+                <source>Description</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

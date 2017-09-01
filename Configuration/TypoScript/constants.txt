@@ -1,0 +1,15 @@
+plugin.tx_lboglossary {
+    view {
+        # cat=plugin.tx_lboglossary/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:lbo_glossary/Resources/Private/Templates/
+        # cat=plugin.tx_lboglossary/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:lbo_glossary/Resources/Private/Partials/
+        # cat=plugin.tx_lboglossary/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:lbo_glossary/Resources/Private/Layouts/
+    }
+
+    persistence {
+        # cat=plugin.tx_lboglossary//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

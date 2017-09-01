@@ -1,0 +1,13 @@
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+	<f:for each="{terms}" as="term">
+		<article>
+			<h3 id="term{term.uid}">{term.term}</h3>
+			<f:format.html>{term.description}</f:format.html>
+		</article>
+	</f:for>
+
+</f:section>

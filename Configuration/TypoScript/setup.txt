@@ -1,0 +1,11 @@
+plugin.tx_lboglossary {
+    view {
+        templateRootPath = {$plugin.tx_lboglossary.view.templateRootPath}
+        partialRootPath = {$plugin.tx_lboglossary.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_lboglossary.view.layoutRootPath}
+    }
+
+    persistence {
+        storagePid = {$plugin.tx_lboglossary.persistence.storagePid}
+    }
+}
