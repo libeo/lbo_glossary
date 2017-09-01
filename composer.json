@@ -1,0 +1,34 @@
+{
+  "name": "libeo/lboglossary",
+  "type": "typo3-cms-extension",
+  "description": "Create a glossary",
+  "version": "1.0.0",
+  "license": [
+    "GPL-2.0+"
+  ],
+  "keywords": ["typo3", "TYPO3 CMS", "Glossary"],
+  "homepage": "https://www.libeo.com",
+  "authors": [
+    {
+      "name": "Pierre Boivin",
+      "role": "Developer"
+    },
+    {
+      "name": "Cyril Janody",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/libeo/lbo_glossary/issues",
+    "wiki": "https://github.com/libeo/lbo_glossary/wiki",
+    "source": "https://github.com/libeo/lbo_glossary"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Libeo\\LboGlossary\\": "Classes"
+    }
+  }
+}
